@@ -6,12 +6,12 @@ def main():
   for line in myFile:
     info = line.split(",")
     name = info[0]
-    runsAllowed = info[3]
+    runs_allowed = info[3]
     wins = info[4]
     losses = info[5]
     era = info[7]
     
-    teamData.append([name,"",  runsAllowed, wins, losses, era])
+    teamData.append([name,"", runs_allowed, wins, losses, era])
     print(teamData)
 
   
