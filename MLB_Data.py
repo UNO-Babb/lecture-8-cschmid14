@@ -35,7 +35,7 @@ def main():
   outFile = open("MLB_Output.csv", 'w')
   
   for line in teamData:
-    output = line[0] + "," + line[1] + "," + line [3] + "," + line[4] + "," + line[5] + "\n"
+    output = line[0] + "," + line[1] + "," + line[2] + "," + line [3] + "," + line[4] + "," + line[5] + "\n"
     outFile.write(output)
   
   outFile.close()
